@@ -1,0 +1,18 @@
+---
+title: "This is Broken"
+format: html
+---
+
+## aaaa it's broken
+
+```{r}
+f <- function() g()
+g <- function() h()
+h <- function() i()
+i <- function() stop("Error")
+```
+
+
+```{r}
+f()
+```
